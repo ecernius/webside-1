@@ -1,0 +1,26 @@
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .img-1 {
+        background: url($img1);
+        @include img-style;
+    }
+
+    .img-2 {
+        background: url($img2);
+        @include img-style;
+    }
+
+    .img-3 {
+        background: url($img3);
+        @include img-style;
+    }
+
+    .img-4 {
+        background: url($img4);
+        @include img-style;
+    }
+
+}
